@@ -30,7 +30,7 @@ nav{
     left: 0;
     width: 100vw;
     z-index: 1;
-    background-color: #000;
+    background-color: rgb(48, 47, 47);
     display: flex;
     justify-content: space-around;
 }
@@ -72,26 +72,32 @@ a{
 
 
 #language1{
-    width: 40px;
-    height: 40px;
+    width: 2.5rem;
+    height: auto;
 }
 
 #language2{
-    width: 40px;
-    height: 40px;
+    width: 2.5rem;
+    height: auto;
 }
 
 .border-bottom{
-    border-bottom: 0.1em white solid;
-    border-radius: 0.1em;
-    padding-bottom: 1vh;
+    border: 0.15em rgb(148, 255, 148) solid;
+    border-radius: 2em;
 }
+
 
 .languageContainer {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    gap: 2rem;
 }
+
+.languageContainer > li {
+    list-style: none;
+}
+
 
 #language-logo1{
     /* margin-top: 5vh;
@@ -221,9 +227,9 @@ a{
 
 #truc-vert{
     width: 100vw;
-    height: 18vh;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(48, 47, 47);
     margin-top: 25vh;
+    padding-bottom: 2rem;
 }
 
 #truc-vert-de-gauche > img {
