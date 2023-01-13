@@ -283,16 +283,17 @@ a{
     height: 10vh;
     font-size: 1.5em;
     font-family: 'League Spartan', sans-serif;
-    font-weight: 700;
+    font-weight: 900;
     border: none;
     border-radius: 0.5em;
-    color: white;
-    box-shadow: 2.5px 2.5px 20px 0 #d3d3d3;
+    color: rgb(34, 34, 34);
+    background-color: #95E7A2;
+    /* box-shadow: 2.5px 2.5px 1px 0 #d3d3d3; */
     display: flex;
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    animation: yahoo 10s  alternate infinite;
+    /* animation: yahoo 10s  alternate infinite; */
 }
 
 @keyframes yahoo{
