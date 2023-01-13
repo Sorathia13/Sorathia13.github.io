@@ -3,7 +3,7 @@ html,body{
     height: 100%;
     padding: 0;
     margin: 0;
-    overflow-x: hidden;
+
     scroll-behavior: smooth;
 }
 
@@ -17,6 +17,7 @@ body{
     linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
     background-color: #131313;
     background-size: 20px 20px;
+    overflow-x: hidden;
 }
 
 nav{
@@ -27,9 +28,11 @@ nav{
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 100vw;
     z-index: 1;
     background-color: #000;
+    display: flex;
+    justify-content: space-around;
 }
 
 ul{
@@ -37,13 +40,10 @@ ul{
     padding: 0;
     margin: 0;
     display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5rem;
 }
-
-.menu{
-    margin-top: 5.5vh;
-    margin-left: 4vw;
-}
-
 
 a{
     text-decoration: none;
@@ -53,7 +53,7 @@ a{
 #logo{
     width: 7em;
     height: 3.5em;
-    margin-top: 2.5vh;
+    margin-top: 1vh;
 }
 
 #logo:hover{
@@ -87,28 +87,37 @@ a{
     padding-bottom: 1vh;
 }
 
+.languageContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
 #language-logo1{
-    margin-top: 5vh;
+    /* margin-top: 5vh;
     margin-left: 86vw;
-    position: absolute;
+    position: absolute; */
     cursor: pointer;
 }
 
 #language-logo2{
-    margin-top: 5vh;
+    /* margin-top: 5vh;
     margin-left: 91vw;
-    position: absolute;
+    position: absolute; */
     cursor: pointer;
 }
 
 
 #bg{
-    overflow: hidden;
     z-index: -1;
     font-family: 'League Spartan', sans-serif;
     font-weight: 700;
     color: #C6FFCF;
     font-size: 12em;
+}
+
+#bg > * {
+    overflow-x: visible;
 }
 
 #bg-row1 {
