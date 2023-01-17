@@ -271,15 +271,15 @@ a{
     transition: all .2s ease-in-out;
 }
 
-#test1{
+#stuffy_thumbnail{
     background-image: url(../Ressources/portfolio/Page_d_accueil.png); 
 }
 
-#test2{
+#exemple_page_d_accueil_web_thumbnail{
     background-image: url(../Ressources/portfolio/page_d_accueil_test.png);
 }
 
-#test3{
+#accueil_boulangerie_thumbnail{
     background-image: url(../Ressources/portfolio/boulangerie_accueil.png);
 }
 
@@ -445,20 +445,32 @@ a{
     filter: blur(0);
 }
 
-#test4{
+#dasitra_thumbnail{
     background-image: url(../Ressources/portfolio/dasitra.png);
 }
 
-#test5{
+#affiche_date_thumbnail{
     background-image: url(../Ressources/portfolio/affiche_date.png);
 }
 
-#test6{
+#demon_slayer_thumbnail{
     background-image: url(../Ressources/portfolio/demon_slayer.png);
 }
 
 #test7{
     background-image: url(../Ressources/portfolio/fate.png);
+}
+
+#lauratraduction_thumbnail{
+    background-image: url(../Ressources/portfolio/lauratraduction_thumbnail.png);
+}
+
+#site_boulangerie_thumbnail{
+    background-image: url(../Ressources/portfolio/boulangeriev2_accueil.png);
+}
+
+#webdoc_thumbnail{
+    background-image: url(../Ressources/portfolio/webdoc_thumbnail.png);
 }
 
 #mon_cv{
@@ -545,4 +557,9 @@ a{
     width: 40%;
     height: 40%;
     margin-top: 20vh;
+}
+
+.websiteLink {
+    color: white;
+    text-decoration: underline;
 }
