@@ -421,7 +421,6 @@ a{
 #all_mywork div{
     background-size: cover;
     background-repeat: no-repeat;   
-    background-position: center;
     background-position: top;
     border-radius: 5%;
     box-shadow: 2px 2px 20px gray;
@@ -473,6 +472,15 @@ a{
     background-image: url(../Ressources/portfolio/webdoc_thumbnail.png);
 }
 
+#toss_history_thumbnail{
+    background-image: url(../Ressources/portfolio/logoblanc2.png);
+}
+
+#tetris_thumbnail{
+    background-image: url(../Ressources/portfolio/Page_de_chargement_tetris.png);
+    background-position: center!important;
+}
+
 #mon_cv{
     display: flex;
     justify-content: center;
@@ -496,6 +504,14 @@ a{
     border-radius: 5%;
     object-fit: cover;
     object-position: top;
+}
+
+#work_img .thumbnailCenter {
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+    object-fit: cover;
+    object-position: center;
 }
 
 

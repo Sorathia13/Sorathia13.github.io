@@ -7,8 +7,6 @@ $('#to-ang').click(function() {
 		$('[lang="fr"]').hide();
 		$('[lang="en"]').toggle();
 		localStorage.user = JSON.stringify({langue: localStorage.getItem('language')});
-		document.getElementById('language2').className = "border-bottom";
-		document.getElementById('language1').className = "";
 		var fileName = location.href.split("/").slice(-1); 
 		if (fileName == "index.html")
 			location.reload();
@@ -22,8 +20,6 @@ $('#to-ang').click(function() {
 		$('[lang="en"]').hide();
 		$('[lang="fr"]').toggle();
 		localStorage.user = JSON.stringify({langue: localStorage.getItem('language')});
-		document.getElementById('language1').className = "border-bottom";
-		document.getElementById('language2').className = "";
 		var fileName = location.href.split("/").slice(-1); 
 		if (fileName == "index.html")
 			location.reload();
@@ -42,16 +38,15 @@ $('#to-ang').click(function() {
 			sessionStorage.setItem('language', user.langue);
 			$('[lang="en"]').hide();
 			$('[lang="fr"]').toggle();
-
 		}
 		else{
 			if(sessionStorage.getItem('language') == "fr"){
-				document.getElementById('language1').className = "border-bottom";
+				$('[lang="en"]').hide();
+				$('[lang="fr"]').toggle();
 			}
 			else{
 				$('[lang="fr"]').hide();
 				$('[lang="en"]').toggle();
-				document.getElementById('language2').className = "border-bottom";
 			}
 		}
-	})();
+	});
