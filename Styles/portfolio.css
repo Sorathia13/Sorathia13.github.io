@@ -385,7 +385,8 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: justify;
+    font-size: 1.1rem;
     border-radius: 1rem 0 0 1rem;
 }
 
@@ -423,7 +424,7 @@ a{
     background-repeat: no-repeat;   
     background-position: top;
     border-radius: 5%;
-    box-shadow: 2px 2px 20px gray;
+    box-shadow: 1px 1px 10px gray;
     display: block;
     width: 26vw;
     height: 51vh;
@@ -479,6 +480,10 @@ a{
 #tetris_thumbnail{
     background-image: url(../Ressources/portfolio/Page_de_chargement_tetris.png);
     background-position: center!important;
+}
+
+#cookie_clicker_thumbnail{
+    background-image: url(../Ressources/portfolio/clicker_accueil.png);
 }
 
 #mon_cv{
