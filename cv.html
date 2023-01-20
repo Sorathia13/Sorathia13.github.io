@@ -27,16 +27,25 @@
     </nav>
     <main>
         <div id="mon_cv">
-            <img src="Ressources/portfolio/Kimi_HSU_CV.jpg" alt="">
+            <img onclick="makeItBigger()" src="Ressources/portfolio/Kimi_HSU_CV.jpg" alt="">
+            <div class="downloadButtonContainer">
+                <div class="button no-margin bigger" onclick="makeItBigger()">CLIQUEZ POUR AGRANDIR</div>
+                <a href="Ressources/portfolio/Kimi_HSU_CV.pdf" lang="fr" download="CV_Kimi_Hsu">
+                    <div class="button important no-margin download">TÉLÉCHARGER</div>
+                </a>
+                <a href="Ressources/portfolio/Kimi_HSU_CV.pdf" lang="en" download="CV_Kimi_Hsu">
+                    <div class="button important no-margin download">DOWNLOAD</div>
+                </a>
+            </div>
         </div>
-        <div id="button">
-            <a href="Ressources/portfolio/Kimi_HSU_CV.pdf" lang="fr" download="CV_Kimi_Hsu">
-                TÉLÉCHARGER 
-            </a>
-            <a href="Ressources/portfolio/Kimi_HSU_CV.pdf" lang="en" download="CV_Kimi_Hsu">
-                DOWNLOAD
-            </a>
+        <div class="biggerCVContainer" id="biggerCV">
+            <div class="CVAndCrossContainer">
+                <img src="Ressources/portfolio/Kimi_HSU_CV.jpg" alt="">
+                <div class="closeButton" onclick="makeItBigger()">&#10060;</div>
+            </div>
+
         </div>
+
         <footer id="truc-vert">
             <div id="info">
                 <img src="Ressources/portfolio/email_logo.png" alt="">

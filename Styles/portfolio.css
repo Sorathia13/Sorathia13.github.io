@@ -20,6 +20,38 @@ body{
     overflow-x: hidden;
 }
 
+@media screen and (max-width: 768px) {
+    nav {
+        display: none!important;
+    }
+    main {
+        display: none!important;
+    }
+    footer {
+        display: none!important;
+    }
+    .comingSoon {
+        display: flex!important;
+    }
+}
+
+.comingSoon{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 1rem;
+}
+
+.comingSoon > h1 {
+    background-color: #95E7A2;
+    width: fit-content;
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
+
 nav{
     font-family: 'Open Sans', sans-serif;
     font-size: 25px;
@@ -283,8 +315,20 @@ a{
     background-image: url(../Ressources/portfolio/boulangerie_accueil.png);
 }
 
-#button > a {
-    margin-top: 10vh;
+@keyframes yahoo{
+    0%{
+        background: #e8f839;
+    }
+    50%{
+        background: #63f27b;
+    }
+    100%{
+        background: #92dae4;
+    }
+}
+
+.button{
+    margin-top: 5vh;
     width: 25vw;
     height: 10vh;
     font-size: 1.5em;
@@ -299,26 +343,54 @@ a{
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    /* animation: yahoo 10s  alternate infinite; */
+    cursor: pointer;
 }
 
-@keyframes yahoo{
-    0%{
-        background: #e8f839;
-    }
-    50%{
-        background: #63f27b;
-    }
-    100%{
-        background: #92dae4;
-    }
-}
-
-#button{
+.buttonCenter {
     display: flex;
     justify-content: center;
-    width: 100vw;
-    height: 20vh;
+    align-items: center;
+}
+
+.button.important {
+    background-color: red;
+    color: whitesmoke;
+    transition: 0.25s;
+}
+
+.button.no-margin {
+    margin: 0;
+}
+
+.button.bigger {
+    transition: 0.25s;
+}
+
+.downloadButtonContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.closeButton {
+    font-size: 3rem;
+    cursor: pointer;
+    transition: 0.25s;
+    height: fit-content;
+}
+
+.closeButton:hover {
+    font-size: 3.5rem;
+}
+
+.button.download:hover {
+    background-color: rgb(139, 0, 0);
+}
+
+.button.bigger:hover {
+    background-color: #609468;
 }
 
 #info{
@@ -489,11 +561,34 @@ a{
 #mon_cv{
     display: flex;
     justify-content: center;
-    margin-top: 25vh;
+    gap: 3rem;
+    margin-top: 20vh;
 }
 
-#mon_cv img{
-    width: 75vw;
+#mon_cv > img{
+    width: 25vw;
+    height: auto;
+    cursor: pointer;
+}
+
+.biggerCVContainer {
+    display: none;
+    justify-content: center;
+    margin-top: 20vh;
+}
+
+.hidden{
+    display: none;
+}
+
+.CVAndCrossContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.CVAndCrossContainer > img {
+    width: 60vw;
+    height: auto;
 }
 
 #work_img{

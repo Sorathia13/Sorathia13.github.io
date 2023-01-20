@@ -28,3 +28,14 @@ window.addEventListener("optimizedScroll", function(){
 
 })
 
+function makeItBigger() {
+    var cv = document.getElementById("mon_cv");
+    var biggerCV = document.getElementById("biggerCV");
+    if (cv.style.display === "none") {
+        cv.style.display = "flex";
+        biggerCV.style.display = "none";
+    } else {
+        cv.style.display = "none";
+        biggerCV.style.display = "flex";
+    }
+}
