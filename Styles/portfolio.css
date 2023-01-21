@@ -364,7 +364,7 @@ a{
     margin: 0;
 }
 
-.button.bigger {
+.button.bigger,.button.seemore {
     transition: 0.25s;
 }
 
@@ -390,9 +390,11 @@ a{
     background-color: rgb(139, 0, 0);
 }
 
-.button.bigger:hover {
+.button.bigger:hover,.button.seemore:hover {
     background-color: #609468;
 }
+
+
 
 .button.spaced {
     margin-top: 10vh;
@@ -457,7 +459,7 @@ a{
 
 #texte_sur_moi{
     width: 70vw;
-    background-color: #085039;
+    background-color: rgb(206, 206, 206);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -472,13 +474,13 @@ a{
     font-size: 1.4em;
     padding-left: 2vw;
     padding-right: 2vw;
-    color:white;
+    color:rgb(44, 44, 44);
 }
 
 #texte_sur_moi > h1{
     font-family: 'League Spartan', sans-serif;
     font-size: 2.5em;
-    color:white;
+    color:rgb(44, 44, 44);
     margin-top: 0;
 }
 
