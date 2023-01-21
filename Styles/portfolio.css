@@ -281,11 +281,11 @@ a{
 }
 
 #myworks{
-    width: 100vw;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;
     position: relative;
+    gap: 6rem;
 }
 
 #myworks div{
@@ -298,7 +298,6 @@ a{
     display: block;
     width: 26vw;
     height: 51vh;
-    margin-bottom: 10vh;
     cursor: pointer;
     transition: all .2s ease-in-out;
 }
@@ -344,6 +343,9 @@ a{
     align-items: center;
     text-decoration: none;
     cursor: pointer;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
 }
 
 .buttonCenter {
@@ -379,10 +381,9 @@ a{
     cursor: pointer;
     transition: 0.25s;
     height: fit-content;
-}
-
-.closeButton:hover {
-    font-size: 3.5rem;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
 }
 
 .button.download:hover {
@@ -391,6 +392,10 @@ a{
 
 .button.bigger:hover {
     background-color: #609468;
+}
+
+.button.spaced {
+    margin-top: 10vh;
 }
 
 #info{
@@ -431,7 +436,8 @@ a{
 
 #a_propos{
     display: flex;
-    margin-top: 30vh;
+    margin-top: 25vh;
+    justify-content: center ;
 }
 
 #photo_de_moi{
@@ -451,15 +457,29 @@ a{
 
 #texte_sur_moi{
     width: 70vw;
-    height: 60vh;
     background-color: #085039;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: justify;
-    font-size: 1.1rem;
-    border-radius: 1rem 0 0 1rem;
+    border-radius: 1rem;
+    padding: 3rem;
+}
+
+#texte_sur_moi > p{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 1.4em;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    color:white;
+}
+
+#texte_sur_moi > h1{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 2.5em;
+    color:white;
+    margin-top: 0;
 }
 
 #myworks:hover div{
@@ -474,20 +494,14 @@ a{
     filter: blur(0);
 }
 
-#texte_sur_moi p{
-    font-family: 'League Spartan', sans-serif;
-    font-size: 1.25em;
-    padding-left: 2vw;
-    padding-right: 2vw;
-    color:white;
-}
+
 
 #all_mywork{
-    width: 100vw;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;
     position: relative;
+    gap: 6rem;
     margin-top: 25vh;
 }
 
@@ -500,7 +514,6 @@ a{
     display: block;
     width: 26vw;
     height: 51vh;
-    margin-bottom: 10vh;
     cursor: pointer;
     transition: all .2s ease-in-out;
 }
