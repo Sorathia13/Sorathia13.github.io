@@ -437,9 +437,13 @@ a{
 }
 
 #a_propos{
+    margin-top: 20vh;
     display: flex;
-    margin-top: 25vh;
-    justify-content: center ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'League Spartan', sans-serif;
+    gap: 3rem;
 }
 
 #photo_de_moi{
@@ -484,6 +488,12 @@ a{
     margin-top: 0;
 }
 
+#a_propos > h1 {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 2.5em;
+    color: whitesmoke;
+}
+
 #myworks:hover div{
     transform: scale(1.);
     opacity: .25;
@@ -495,8 +505,6 @@ a{
     opacity: 1;
     filter: blur(0);
 }
-
-
 
 #all_mywork{
     display: flex;
@@ -694,3 +702,259 @@ a{
     color: white;
     text-decoration: underline;
 }
+
+.contentWrapper {
+    display: flex;
+    justify-content: center;
+
+}
+
+.imgAndTextWrapper {
+    width: fit-content;
+    display: flex;
+}
+
+.imgWrapper {
+    width: 20vw;
+    height: auto;
+    background-color: rgba(245, 245, 245, 0.1);
+    backdrop-filter: blur(3px);
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+
+.textWrapper {
+    background-color: rgba(245, 245, 245, 1);
+    backdrop-filter: blur(3px);
+    width: 40vw;
+    font-size: 1.5rem;
+    padding: 3rem;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.textBoth {
+    border-radius: 1rem;
+}
+
+.textLeft {
+    border-radius: 1rem 0 0 1rem;
+}
+
+.textRight {
+    border-radius: 0 1rem 1rem 0;
+}
+
+.textUp {
+    border-radius: 1rem 1rem 0 0;
+}
+
+.textDown {
+    border-radius: 0 0 1rem 1rem;
+}
+
+.imgLeft {
+    border-radius: 1rem 0 0 1rem;
+}
+
+.imgRight {
+    border-radius: 0 1rem 1rem 0;
+}
+
+.imgUp {
+    border-radius: 1rem 1rem 0 0;
+}
+
+.imgDown {
+    border-radius: 0 0 1rem 1rem;
+}
+
+.introduction > h2, h4 {
+    margin: 0;
+    align-self: flex-start;
+}
+
+.introduction > h4 {
+    font-weight: 300;
+}
+
+.textWrapper > p {
+    margin: 0;
+}
+
+.imgWrapper > img {
+    width: 20vw;
+    height: auto;
+}
+
+#downArrow {
+    width: 5vw;
+    height: auto;
+}
+
+.mainWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem
+}
+
+.line {
+    width: 15vw;
+    height: 0.25vh;
+    border-radius: 1rem;
+    background-color: #242424;
+    align-self: flex-start;
+}
+
+.whiteLine {
+    background-color: whitesmoke;
+}
+
+.introduction {
+    align-self: flex-start;
+}
+
+#clickerGameExemple {
+    min-width: 100%;
+    height: auto;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.verticalWrap {
+    flex-direction: column!important;
+}
+
+.verticalImg {
+    width: 100%!important;
+}
+
+.justifyContentCenter {
+    justify-content: center!important;
+}
+
+.alignItemsCenter {
+    align-items: center!important;
+}
+
+.heightCarouselElement {
+    height: 25vh!important;
+} 
+
+.main-gallery {
+    width: 75vw;
+    height: 75vh;
+    border-radius: 3rem;
+}
+
+.gallery-cell {
+    width: 100%;
+    height: 100%;
+    background: whitesmoke;
+    counter-increment: gallery-cell;
+    border-radius: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-cell:hover .gallery-cell-text {
+    opacity: 1!important;
+}
+
+.gallery-cell-text {
+    position: absolute;
+    background-color: rgba(245, 245, 245, 0.5);
+    color: rgb(30, 30, 30);
+    backdrop-filter: blur(50px);
+    box-shadow: 0.5rem 0.5rem 1rem 0.25rem rgba(0, 0, 0, 0.1);
+    width: 75%;
+    height: 65%;
+    border-radius: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.gallery-cell-text > h2 {
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 0;
+    padding: 4rem 5rem 0 5rem;
+}
+
+.gallery-cell-text > p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0;
+    padding: 0 5rem 0rem 5rem;
+    text-align: center;
+}
+
+.paddingGalleryText {
+    padding: 0 5rem 4rem 5rem!important;
+}
+
+/* big buttons, no circle */
+.flickity-prev-next-button {
+    width: 100px;
+    height: 100px;
+    background: transparent;
+  }
+  /* arrow color */
+  .flickity-prev-next-button .arrow {
+    fill: white;
+  }
+  .flickity-prev-next-button.no-svg {
+    color: white;
+  }
+  .flickity-prev-next-button:hover {
+    background: transparent;
+  }
+  /* hide disabled button */
+  .flickity-prev-next-button:disabled {
+    display: none;
+  }
+  
+  /* position dots in gallery */
+  .flickity-page-dots {
+    bottom: 0px;
+  }
+  /* white circles */
+  .flickity-page-dots .dot {
+    width: 12px;
+    height: 12px;
+    opacity: 1;
+    background: transparent;
+    border: 2px solid white;
+  }
+  /* fill-in selected dot */
+  .flickity-page-dots .dot.is-selected {
+    background: white;
+  }
+
+  .gallery-cell > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 3rem;
+    object-fit: contain;
+  }
+
+  .cover {
+    object-fit: cover!important;
+  }
+
+  .objectTop {
+    object-position: top!important;
+  }
