@@ -45,7 +45,7 @@ https://flickity.metafizzy.co
 
 .flickity-button {
   position: absolute;
-  background-color: rgba(245, 245, 245, 0.1);
+  background-color: rgba(245, 245, 245, 0.5);
   color: whitesmoke;
   backdrop-filter: blur(50px);
   border: none;
