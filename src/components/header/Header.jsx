@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import "./header.css";
+import Logo from '../../assets/logo.png';
 
 const Header = () => {
     window.addEventListener("scroll", function() {
@@ -12,7 +13,9 @@ const Header = () => {
     return (
         <header className="header">
             <nav className="nav container">
-                <a href="#home" onClick={() => setActiveNav("#home")} className="nav_logo">Kimi</a>
+            <a href="#home" onClick={() => setActiveNav("#home")}>
+                    <img className="nav_logo" src={Logo} alt="" />
+                </a>
 
                 <div className={Toggle ? "nav_menu show-menu" : 
                 "nav_menu"}>

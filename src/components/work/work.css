@@ -108,7 +108,7 @@
 }
 
 .work_modal-img {
-    width: 500px;
+    width: 1500px;
     max-height: 500px;
     object-fit: cover;
     object-position: top;
@@ -121,7 +121,7 @@
 }
 
 .work_modal-info {
-    width: 350px;
+    width: auto;
     display: grid;
     grid-template-rows: repeat(3, max-content);
     row-gap: 1.5rem;
@@ -172,6 +172,10 @@
     .work_container {
         grid-template-columns: max-content;
     }
+
+    .work_modal-info {
+        margin-right: 1.5rem;
+    }
   }
 
   @media screen and (max-width: 576px) {
@@ -188,15 +192,18 @@
     }
 
     .work_modal {
-        padding: 0 2rem;
+        padding: 0 1rem;
     }
 
     .work_modal-content {
         flex-direction: column;
+        width: 600px;
+        padding: 2rem;
     }
 
     .work_modal-img {
         margin-bottom: 2rem;
+        height: 300px;
     }
 
     .work_modal-close{
@@ -218,5 +225,18 @@
     .work_filters {
         column-gap: 0;
     }
+    .work_modal-content {
+        flex-direction: column;
+        width: 300px;
+        padding: 2rem;
+    }
 
+    .work_modal-img {
+        margin-bottom: 2rem;
+        height: 200px;
+    }
+
+    .work_modal-info {
+        width: 100%;
+    }
   }
