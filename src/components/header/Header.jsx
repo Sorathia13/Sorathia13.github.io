@@ -28,14 +28,14 @@ const Header = () => {
                         </li> */}
 
                         <li className="nav_item">
-                            <a href="#about" onClick={() => setActiveNav("#about")} className={activeNav === "#about" ? "nav_link active-link" : "nav_link"}>
+                            <a href="#about" onClick={() => {setActiveNav("#about"); showMenu(!Toggle);}} className={activeNav === "#about" ? "nav_link active-link" : "nav_link"}>
                                 <i className="uil uil-user nav_icon"></i>
                                 À propos de moi
                             </a>
                         </li>
 
                         <li className="nav_item">
-                            <a href="#skills" onClick={() => setActiveNav("#skills")} className={activeNav === "#skills" ? "nav_link active-link" : "nav_link"}>
+                            <a href="#skills" onClick={() => {setActiveNav("#skills"); showMenu(!Toggle);}} className={activeNav === "#skills" ? "nav_link active-link" : "nav_link"}>
                                 <i className="uil uil-file-alt nav_icon"></i>
                                 Compétences
                             </a>
@@ -49,14 +49,14 @@ const Header = () => {
                         </li> */}
 
                         <li className="nav_item">
-                            <a href="#portfolio" onClick={() => setActiveNav("#portfolio")} className={activeNav === "#portfolio" ? "nav_link active-link" : "nav_link"}>
+                            <a href="#portfolio" onClick={() => {setActiveNav("#portfolio"); showMenu(!Toggle);}} className={activeNav === "#portfolio" ? "nav_link active-link" : "nav_link"}>
                                 <i className="uil uil-scenery nav_icon"></i>
                                 Portfolio
                             </a>
                         </li>
 
                         <li className="nav_item">
-                            <a href="#contact" onClick={() => setActiveNav("#contact")} className={activeNav === "#contact" ? "nav_link active-link" : "nav_link"}>
+                            <a href="#contact" onClick={() => {setActiveNav("#contact"); showMenu(!Toggle);}} className={activeNav === "#contact" ? "nav_link active-link" : "nav_link"}>
                                 <i className="uil uil-message nav_icon"></i>
                                 Contact
                             </a>

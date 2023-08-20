@@ -15,9 +15,10 @@
     column-gap: 1rem;
 }
 
-.nav_logo {
-    width: 50px;
-    height: 50px;
+.nav_logo,
+.nav_logo-link {
+    width: 40px;
+    height: 40px;
     cursor: pointer;
 }
 
@@ -46,12 +47,6 @@
 .nav_toggle {
     display: none;
 }
-
-.nav_logo-link {
-    width: 50px;
-    height: 50px;
-}
-
 
 /* .active-link, */
 .nav_link:hover {
@@ -123,6 +118,10 @@
     .nav_close,
     .nav_toggle {
         display: block;
+    }
+    
+    .scroll-header {
+        box-shadow: 0 -4px 2px rgba(0, 0, 0, 0.1);
     }
 }
 
