@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.71c6df3b.css",
-    "main.js": "/static/js/main.17e0722b.js",
-    "static/js/787.6d185335.chunk.js": "/static/js/787.6d185335.chunk.js",
-    "static/media/moi_1.png": "/static/media/moi_1.295508bd4a9fa3e8d096.png",
-    "static/media/boulangerie.png": "/static/media/boulangerie.91673093bd57b9aacd15.png",
-    "static/media/stuffy.png": "/static/media/stuffy.5396442962984dc1c810.png",
-    "static/media/portfolio_2.png": "/static/media/portfolio_2.ed37629c691a8a45328c.png",
-    "static/media/Kimi_HSU_CV_2023_.pdf": "/static/media/Kimi_HSU_CV_2023_.1243b1224b9c94fb0abd.pdf",
-    "static/media/tetris.png": "/static/media/tetris.4e6a8acdf185c7059f96.png",
-    "static/media/callyope.png": "/static/media/callyope.bac435700dbe761ca101.png",
-    "index.html": "/index.html",
-    "main.71c6df3b.css.map": "/static/css/main.71c6df3b.css.map",
-    "main.17e0722b.js.map": "/static/js/main.17e0722b.js.map",
-    "787.6d185335.chunk.js.map": "/static/js/787.6d185335.chunk.js.map"
+    "main.css": "/sorathia13.github.io/static/css/main.6454d653.css",
+    "main.js": "/sorathia13.github.io/static/js/main.5d34a794.js",
+    "static/js/787.6d185335.chunk.js": "/sorathia13.github.io/static/js/787.6d185335.chunk.js",
+    "static/media/moi_1.png": "/sorathia13.github.io/static/media/moi_1.295508bd4a9fa3e8d096.png",
+    "static/media/boulangerie.png": "/sorathia13.github.io/static/media/boulangerie.91673093bd57b9aacd15.png",
+    "static/media/stuffy.png": "/sorathia13.github.io/static/media/stuffy.5396442962984dc1c810.png",
+    "static/media/portfolio_2.png": "/sorathia13.github.io/static/media/portfolio_2.ed37629c691a8a45328c.png",
+    "static/media/Kimi_HSU_CV_2023_.pdf": "/sorathia13.github.io/static/media/Kimi_HSU_CV_2023_.1243b1224b9c94fb0abd.pdf",
+    "static/media/tetris.png": "/sorathia13.github.io/static/media/tetris.4e6a8acdf185c7059f96.png",
+    "static/media/callyope.png": "/sorathia13.github.io/static/media/callyope.bac435700dbe761ca101.png",
+    "index.html": "/sorathia13.github.io/index.html",
+    "main.6454d653.css.map": "/sorathia13.github.io/static/css/main.6454d653.css.map",
+    "main.5d34a794.js.map": "/sorathia13.github.io/static/js/main.5d34a794.js.map",
+    "787.6d185335.chunk.js.map": "/sorathia13.github.io/static/js/787.6d185335.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.71c6df3b.css",
-    "static/js/main.17e0722b.js"
+    "static/css/main.6454d653.css",
+    "static/js/main.5d34a794.js"
   ]
 }
