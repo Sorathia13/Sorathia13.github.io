@@ -1,0 +1,34 @@
+.footer {
+    background-color: var(--title-color);
+    border-top: 1px solid #e9ecef;
+    padding: 3rem 0 2rem 0;
+    margin-top: 4rem;
+}
+
+.footer_container {
+    text-align: center;
+    display: grid;
+    row-gap: 2rem;
+}
+
+.footer_title {
+    font-size: var(--h1-font-size);
+    color: var(--container-color);
+}
+
+.footer_copy {
+    font-size: var(--normal-font-size);
+    color: var(--container-color);
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        padding: 3rem 0 6rem 0;
+    }
+  }
+
+  @media screen and (max-width: 576px) {
+  }
+
+  @media screen and (max-width: 350px) {
+  }
