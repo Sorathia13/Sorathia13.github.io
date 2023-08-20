@@ -13,7 +13,7 @@ const Header = () => {
     return (
         <header className="header">
             <nav className="nav container">
-            <a href="#home" onClick={() => setActiveNav("#home")}>
+                <a href="#home" onClick={() => setActiveNav("#home")} className='nav_logo-link'>
                     <img className="nav_logo" src={Logo} alt="" />
                 </a>
 

@@ -47,6 +47,11 @@
     display: none;
 }
 
+.nav_logo-link {
+    width: 50px;
+    height: 50px;
+}
+
 
 /* .active-link, */
 .nav_link:hover {
