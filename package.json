@@ -1,7 +1,7 @@
 {
   "name": "mon-app",
   "version": "0.1.0",
-  "homepage": "https://sorathia13.github.io/sorathia13.github.io",
+  "homepage": "https://sorathia13.github.io",
   "private": true,
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.16.7",
