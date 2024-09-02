@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.a049798a.css",
-    "main.js": "/static/js/main.27efb855.js",
+    "main.css": "/static/css/main.ff5c020d.css",
+    "main.js": "/static/js/main.1325497f.js",
     "static/js/787.6d185335.chunk.js": "/static/js/787.6d185335.chunk.js",
-    "static/media/moi_1.png": "/static/media/moi_1.295508bd4a9fa3e8d096.png",
     "static/media/boulangerie.png": "/static/media/boulangerie.91673093bd57b9aacd15.png",
     "static/media/stuffy.png": "/static/media/stuffy.5396442962984dc1c810.png",
+    "static/media/moi_1.png": "/static/media/moi_1.45f27f00dd7bb3fdd699.png",
+    "static/media/Kimi_Hsu_CV_2024.pdf": "/static/media/Kimi_Hsu_CV_2024.19acc0b238ce6d6b7efe.pdf",
     "static/media/portfolio_2.png": "/static/media/portfolio_2.ed37629c691a8a45328c.png",
-    "static/media/Kimi_HSU_CV_2023_.pdf": "/static/media/Kimi_HSU_CV_2023_.1243b1224b9c94fb0abd.pdf",
     "static/media/tetris.png": "/static/media/tetris.4e6a8acdf185c7059f96.png",
     "static/media/callyope.png": "/static/media/callyope.bac435700dbe761ca101.png",
     "index.html": "/index.html",
-    "main.a049798a.css.map": "/static/css/main.a049798a.css.map",
-    "main.27efb855.js.map": "/static/js/main.27efb855.js.map",
+    "main.ff5c020d.css.map": "/static/css/main.ff5c020d.css.map",
+    "main.1325497f.js.map": "/static/js/main.1325497f.js.map",
     "787.6d185335.chunk.js.map": "/static/js/787.6d185335.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a049798a.css",
-    "static/js/main.27efb855.js"
+    "static/css/main.ff5c020d.css",
+    "static/js/main.1325497f.js"
   ]
 }
