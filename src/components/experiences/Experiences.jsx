@@ -80,6 +80,23 @@ const Experience = () => {
                         ? "experiences_content experiences_content-active"
                         : "experiences_content"
                     }>
+
+                        <div className="experiences_data">
+                            <div></div>
+                            <div>
+                                <span className="experiences_rounder"></span>
+                                <span className="experiences_line"></span>
+                            </div>
+                            <div>
+                                <h3 className="experiences_title">Développeur Front-end</h3>
+                                <span className="experiences_subtitle">ADventori</span>
+                                <div className="experiences_calendar">
+                                    <i className="uil uil-calendar-alt"></i>
+                                    Avril - Août 2024    
+                                </div>
+                            </div>
+                        </div>
+
                         <div className="experiences_data">
                             <div>
                                 <h3 className="experiences_title">Développeur Web/ Graphiste</h3>
